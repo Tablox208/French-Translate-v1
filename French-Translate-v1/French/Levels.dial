@@ -1,0 +1,111 @@
+# Names of levels
+
+# C) Cosmic Connection
+WORLD_C = Connexion Cosmique
+LEVEL_CRAPH = Le Bloc a Besoin de Toi 
+LEVEL_HECKX = Évaluation de Performance 
+LEVEL_MUSHD = Éclectique 
+LEVEL_STARA = Marathon! 
+LEVEL_STARB = Pas de Chaussures, Pas de T-shirt, Pas de Service 
+
+# 1) Ice Cream Island
+WORLD_1 = Île Crème Glacée
+LEVEL_SNOWBASE = Maison
+LEVEL_SNOWB = Passage Agréable
+LEVEL_SNOWC = Route de l'Accueil
+LEVEL_SNOWD = Lac Tiède 
+LEVEL_SNOWE = Eau Flottante 
+LEVEL_SNOWF = Entreprise Ratée 
+LEVEL_SNOWU = Tu Te Souviens? 
+LEVEL_SNOWZ = Mec, Faut Gérer Ta Colère 
+
+# 2) Tall Mountains
+WORLD_2 = Hautes Montagnes
+WORLD_2B = Sous Terre
+LEVEL_APARTMENTJ = Le Sorcier sur le Rocher 
+LEVEL_LEVELA = Ponts Mobiles 
+LEVEL_LEVELC = Il Pleut des Chats et des Chiens! 
+LEVEL_LEVELD = On Recrute 
+LEVEL_LEVELF = M. Sucre d'Orge t'Aime 
+LEVEL_LEVELU = Tu Te Rappelles? 
+LEVEL_LEVELX = Ballons! 
+LEVEL_SNOWH = Montagne Étoilée 
+LEVEL_SNOWG = Tour de Guet 
+LEVEL_SNOWX = Mec, Calme-Toi 
+LEVEL_LEVELB = On Monte 
+LEVEL_LEVELZ = On Descend 
+
+# 3) Magic Cavern
+WORLD_3 = Caverne Magique
+LEVEL_MUSHA = Chutes de Champis 
+LEVEL_MUSHB = Psilocybine 
+LEVEL_MUSHE = Voir des Étoiles 
+LEVEL_MUSHF = Flotte Toujours 
+LEVEL_MUSHU = Tu Peux Te Remémorer? 
+LEVEL_MUSHZ = Mec, Respire un Coup 
+
+# 4) Crap Town
+WORLD_4 = Ville Pourrie
+WORLD_4B = Le Ventre de Bob
+LEVEL_HECKY = Logements d'Entreprise
+LEVEL_APARTMENTK = Terre Morte 
+LEVEL_APARTMENTM = Ville du Charbon 
+LEVEL_CRAPA = Grotte Sombre 
+LEVEL_CRAPD = Ville Tactile 
+LEVEL_CRAPE = Baie Délabrée 
+LEVEL_CRAPG = Lac de Montagne 
+LEVEL_CRAPI = Entrée de la Tour 
+LEVEL_CRAPZ = Mec, Du Calme 
+LEVEL_LEVELL = Machines Qui S'Effondrent 
+LEVEL_LEVELQ = Freddy: Le Poisson le Plus Sympa 
+LEVEL_APARTMENTI = Carie Dentaire 
+LEVEL_BELLYZ = Rémission 
+LEVEL_CRAPF = Indigestion 
+LEVEL_CRAPX = Tu Reconnais? 
+
+# 5) Horrible Heck
+WORLD_5 = Horrible Enfer
+LEVEL_HECKA = Une Nouvelle Façon d'Aller au Boulot 
+LEVEL_HECKB = Tu Sais Réfléchir? 
+LEVEL_HECKC = Automatisation 
+LEVEL_HECKD = Cohésion d'Équipe 
+LEVEL_HECKE = Pas de Pause Ici 
+LEVEL_HECKG = Authentification Requise 
+LEVEL_HECKH = En Retard au Boulot 
+LEVEL_HECKJ = Escaliers 
+LEVEL_HECKK = Trajet Épouvantable 
+LEVEL_HECKW = Mec, C'est Quoi Ton Problème? 
+LEVEL_HECKZ = Démission 
+
+# 6) New Freedomland
+WORLD_6 = Nouvelle Freedomland
+WORLD_6B = Longue Chute
+LEVEL_FREEDOMA = Payer pour Marcher 
+LEVEL_FREEDOMB = Jouer dans la Circulation 
+LEVEL_FREEDOMC = Vallée Billi' 
+LEVEL_FREEDOME = Distributeurs de Billets Automatisés 
+LEVEL_FREEDOMG = Nourris les Poissons 
+LEVEL_FREEDOMH = La Nature est Abeilleuse 
+LEVEL_FREEDOMJ = Ce Serait Trop Drôle Si Tu Tombais 
+LEVEL_FREEDOMK = Océan Billi' 
+LEVEL_FREEDOMU = Tu Peux Être Présent? 
+LEVEL_FREEDOMZ = Manoir de Billi' 
+LEVEL_FREEDOMD = Égouts 
+LEVEL_FREEDOMI = Ascenseur Abandonné 
+LEVEL_FREEDOMW = Mec, Ton Attitude est Nulle 
+LEVEL_FREEDOMY = Sortie Secrète
+
+# 7) New New Freedomland
+WORLD_7 = Nouvelle Nouvelle Freedomland
+LEVEL_APARTMENTH = Déconcerter 
+LEVEL_FREEDOMF = Brutaliser 
+LEVEL_HECKI = Racler 
+LEVEL_LEVELI = Pulvériser 
+LEVEL_LEVELJ = Geler 
+LEVEL_VOIDA = Stupéfier 
+LEVEL_VOIDB = Empaler 
+LEVEL_VOIDZ = Réformer 
+
+# X) Special
+LEVEL_REST = Vacances
+LEVEL_DEMO_END = Fin de la Démo?

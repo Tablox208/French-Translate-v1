@@ -1,0 +1,88 @@
+KARATE.J1 (JAIL) =
+    Je vais <s=4>TOUT À FAIT BIEN</s> sans mon tapis de course!
+
+    Je ne suis <s=4>PAS</s> accro à l'exercice!
+
+    <s=8>NON!</s>
+
+    <s=2>Je me sens super bien à rester immobile dans cette pièce minuscule!</s>
+
+KARATE.J2 (JAIL) =
+    J'utilise la pensée positive pour rester dans le déni--je veux dire positif.
+
+KARATE.R1 (REST) =
+    Salut petit pote! C'est l'heure de se la couler douce hein?
+
+    C'est le repos et la détente! Tu le mérites après tout ton dur labeur!
+
+*KARATE_INVALID = On dirait que tu n'as aucun bouton assigné pour l'Échange Rapide, quoi que ça veuille dire.
+
+KARATE (HOME) =
+    ?B
+        => KARATE.ALL_BADGES_*
+        => KARATE.SOME_BADGES_*
+        => KARATE.NO_BADGES
+
+*KARATE.LEAVE =
+    Prends soin de toi!
+
+*KARATE.ASK_SWAP =
+    Je peux t'aider en quoi que ce soit?
+
+    ?Q 
+        Non. => KARATE.LEAVE
+        Montre-moi l'Échange Rapide! => KARATE.QUICK_SWAP
+
+*KARATE.QUICK_SWAP =
+    @A1
+
+*KARATE.NO_BADGES =
+    Hé mon pote, je passe mes journées à inventer des Pouvoirs de ouf et à les infuser dans des Badges!
+
+    Si tu as assez de {BADGE_FRAGMENT}, je peux t'en fabriquer un!
+
+    Va juste choisir un truc!
+
+*KARATE.SOME_BADGES_1 =
+    Tu savais que tu peux assigner des Badges différents à des boutons précis dans le menu des options de commandes?
+
+    Comme ça, pas besoin de les faire défiler à chaque fois!
+
+*KARATE.SOME_BADGES_2 =
+    J'espère que mon Badge {BADGE_UNLOCKED_RANDOM} t'est utile!
+
+    Si tu as assez de {BADGE_FRAGMENT}, je peux te fabriquer un autre Badge!
+
+    ?B
+        => KARATE.ASK_SWAP
+        => KARATE.LEAVE
+
+%*KARATE.ALL_BADGES_1 =
+    Wow, tu aimes vraiment mes Badges hein?
+
+    Alors... Tu veux connaître un petit secret?
+    
+    Les Badges sont des placebos! Ils ne font rien du tout hihi...
+    
+    Ils te donnent juste la confiance nécessaire pour faire des choses Puissantes!
+    
+    Tu vois? Tu n'as jamais eu besoin de moi pour des trucs comme klaxonner ou cracher des boulets de morve!
+    
+    Tu en étais capable depuis le début de ces choses agaçantes et dégoûtantes.
+    
+    Le ciel est la limite, mon pote!
+
+*KARATE.ALL_BADGES_2 =
+    Tu es le MAÎTRE DES BADGES maintenant!
+
+KARATE.FASTER_LIBERATION = Salut, petit pote!
+
+*KARATE.EVIL_LIBERATION = 
+    Yowza! Désolé pour ça petit pote!
+
+KARATE.FASTER_SECRET = Parle-moi des POUVOIRS!
+
+*KARATE.SECRET =
+    Ouais! Merci petit ami!
+    
+    Viens me parler pour obtenir des <c={IMPORTANT_HEX}>POUVOIRS</c> à la Maison <i=TentWhiteOutline,1,16,18,10></i>!

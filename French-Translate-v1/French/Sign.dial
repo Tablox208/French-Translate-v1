@@ -1,0 +1,97 @@
+SIGN.FREEDOMLAND =
+    PROPRIÉTÉ DE {ABRA_CADABRA}. RESTEZ DEHORS SINON VOUS RISQUEZ DE <s=10>MOURIR.</s>
+
+    SI VOUS MOUREZ C'EST TOTALEMENT UN ACCIDENT ET {ABRA_CADABRA} <s=5>NE PEUT PAS</s> ÊTRE TENU POUR RESPONSABLE.
+
+    TOUTES LES MACHINES DE MORT TROUVÉES SUR LES LIEUX SONT UNE SIMPLE COÏNCIDENCE.
+
+SIGN.HAHA_1 =
+    Haha, bien joué! Comment t'as fait pour arriver ici petit coquin?
+
+SIGN.HAHA_2 =
+    <s=10>Coquin!<s>
+
+SIGN.STOP_1 =
+    <f=2,10>WOW! TU M'AS ENFIN TROUVÉ!</f>
+
+    <f=2,10>JE SUIS LE PANNEAU LE PLUS SPÉCIAL DU JEU!</f>
+
+    @S1
+
+    JE SUIS LE PANNEAU QUI <s=10>EFFACE</s> TA SAUVEGARDE SI TU ME TROUVES.
+
+    @S2
+
+    <f=2,10>JE PLAISANTE!</f>
+
+    <f=2,10>MAIS CE SERAIT TELLEMENT MARRANT.</f>
+
+SIGN.STOP_2 =
+    <f=2,10>POURQUOI TU VIENS ME PARLER ENCORE?!</f>
+
+    @S1
+
+    <c=#ff0000>PARLE-MOI UNE FOIS DE PLUS ET JE LE FERAI PEUT-ÊTRE!</c>
+
+SIGN.STOP_3 =
+    [AutoProceed: true]
+    <c=#ff0000>TRÈS BIEN! TU L'AS CHERCHÉ!</c>
+
+    @S3
+
+SIGN.WIZARD_MOUNTAIN =
+    NE t'APPROCHE PAS de MOI! NE grimpe PAS sur MA MONTAGNE! Je pourrais me TÉLÉPORTER AILLEURS!!!
+    
+    JE TE DÉTESTE!!!!!!
+
+    Salutations\n\n- Le Sorcier Haricot
+
+SIGN.SECRET_CODE =
+    Le code est {SECRET_CODE}.
+
+SIGN.BEES =
+    Sois sympa avec les Abeilles. <s=2>Et leurs fleurs!</s>
+
+    Salutations\n\n- Les Abeilles
+
+SIGN.BEES_CHECK =
+    Tu as été sympa avec les Abeilles?
+
+%SIGN.TIPS =
+    <f=2,4>Le savais-tu?</f>
+
+    Tu peux te téléporter à la Maison depuis la Carte du Monde via le Menu Pause?
+
+    Comme ça, pas besoin de tout refaire à pied à chaque fois!
+
+    <s=3>Reparle-moi pour d'autres Astuces!</s>
+
+%SIGN.TIPS_2 =
+    <f=2,4>Le savais-tu?
+
+    Le moonwalk est vraiment utile? Tu ne le fais probablement pas assez!
+
+    C'est surtout utile contre les Boss! Tu peux leur tirer dessus et fuir en même temps. Wow!
+
+    <s=3>Reparle-moi pour d'autres Astuces!</s>
+
+%SIGN.TIPS_3 =
+    <f=2,4>Le savais-tu?</f>
+
+    Chaque chose réagit différemment quand on lui crache dessus?
+
+    Certains ennemis seront sonnés, et d'autres s'en moqueront tout simplement!
+
+    Tu devras expérimenter! 
+
+    <f=2,4>C'est toutes les Astuces que j'ai! J'espère que ça t'a aidé!</f>
+
+    @CLEAR_TIPS
+
+SIGN.BACKWARDS = 
+    Entre le code à l'envers.
+
+SIGN.CRUEL = 
+    Il va falloir tout utiliser. Débrouille-toi.
+
+SIGN.FASTER_LIBERATION = Rien ici!

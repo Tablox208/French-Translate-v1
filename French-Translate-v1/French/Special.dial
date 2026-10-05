@@ -1,0 +1,211 @@
+# DEMO
+
+SMILEY_BEEHAVE.1 =
+    [CrawlSound: SignSpeak, Portrait: SignPortrait]
+    Merci à AwezomeXD d'avoir créé ce niveau avec les outils de modding!
+
+DEMO_END.1 =
+    [CrawlSound: SignSpeak, Portrait: SignPortrait]
+    Salut! On dirait que t'as atteint la fin de la démo!
+
+    Ou peut-être pas???
+    
+    Ce n'était que la fin du Monde 1! Je pourrais te montrer quelques niveaux supplémentaires de la suite du jeu!
+
+    J'ai aussi ajouté des niveaux secrets super difficiles, ça te donnera une bonne idée de ce qui t'attend!
+    
+    Ça te dit?
+
+    ?Q
+        Non, ça ira. => DEMO_END.NO
+        Montre-m'en plus! => DEMO_END.YES
+
+*DEMO_END.YES =
+    [CrawlSound: SignSpeak, Portrait: SignPortrait]
+    Avec plaisir!
+    
+    Bonne chance!
+
+    @A1
+
+*DEMO_END.NO =
+    [CrawlSound: SignSpeak, Portrait: SignPortrait]
+    D'accord! Eh bien, merci d'avoir joué!
+
+# CREDITS
+
+CREDITS_TITLE.TRANSLATORS = <c={IMPORTANT_HEX}>TRADUCTEURS?</c>
+
+CREDITS_TITLE.SUPPORTERS = <c={IMPORTANT_HEX}>SOUTIENS?</c>
+
+CREDITS_TITLE.PLAYTESTERS = <c={IMPORTANT_HEX}>TESTEURS?</c>
+
+CREDITS =
+    [CrawlSound: ZacharySpeak, ExtraBig: true]
+    <c={IMPORTANT_HEX}>QUI EST RESPONSABLE DE ÇA?</c>
+    Garbanzo Quest est entretenu par Zachary Gardner (moi).
+
+    # @TRANSLATORS
+
+    @SUPPORTERS
+
+    @PLAYTESTERS
+
+    <c={IMPORTANT_HEX}>CE QUI A ÉTÉ UTILISÉ?</c>
+    framework de moteur de jeu MonoGame, 
+    outil de pixel art Aseprite, 
+    tracker chiptune MilkyTracker, 
+    palette de couleurs AAP-SPLENDOR128, 
+    police Monogram, 
+    police PICO-8.
+
+    <c={IMPORTANT_HEX}>QUELQU'UN D'AUTRE?</c>
+    Toi! Merci d'avoir joué à mon jeu!
+
+# Upgrade
+
+*UPGRADE.START =
+    Entrer?
+
+    ?Q
+        Non. => UPGRADE.No
+        Oui. => UPGRADE.YES
+
+*UPGRADE.YES =
+    Bonne idée.
+
+    @A1
+
+    ?B
+        (!HAS_DOUBLE_JUMP) => UPGRADE.DOUBLE
+        => UPGRADE.NORMAL
+
+*UPGRADE.DOUBLE =
+    Tu sens que quelque chose a changé.
+
+*UPGRADE.NORMAL =
+    Tu te sens à nouveau comme avant.
+
+*UPGRADE.NO =
+    Vraiment?
+
+# CHECKLISTIO
+
+%CHECKLISTIO.1 =
+    hey! tu kiffes les checklists???
+
+    si t'es aussi <s=2>DINGUE</s> et que tu <s=3>KIFFES LES CHECKLISTS</s> alors <s=4>JE T'EN SUPPLIE REGARDE-LES!</s>
+
+CHECKLISTIO.2 =
+    <s=4>ADMIRE MES CHECKLISTS!!</s>
+
+# REST
+
+%REST =
+    ?B
+       (P1_CHICKPEA) => REST.CHICKPEA
+       (P1_PINTO) => REST.PINTO
+       (P1_FRANKIE) => REST.FRANKIE
+       (P1_ZOEBANZO) => REST.ZOEBANZO
+       => REST.GENERIC
+
+*REST.CHICKPEA =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    La vie est plutôt ennuyeuse depuis que j'ai sauvé le monde.
+
+    Ce n'est pas grave, l'ennui est ce pour quoi on se bat!
+
+    Et puis, j'ai plein de visites.
+
+    Même si, parfois, je me demande si j'ai raté quelque chose...
+
+    => REST.C
+
+*REST.PINTO =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Sauver le Monde, c'était plutôt classe de ma part. De rien le Monde.
+
+    Les choses sont plutôt tranquilles je suppose...
+
+    Des fois je me demande s'il y avait encore des trucs cool à faire pour moi?
+
+    => REST.C
+
+*REST.FRANKIE =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    J'ai aboyé sur tout, et maintenant le Monde est sauvé!
+
+    J'adore aboyer! 
+    
+    <s=6>SUR TOUT!</s>
+
+    Des fois je me demande quand même, y avait-il d'autres trucs sur qui aboyer?
+
+    => REST.C
+
+*REST.ZOEBANZO =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Nous ne sommes plus enchaînés au profit et au gain.
+    
+    Il faudra un peu de temps pour que le sentiment de repos s'installe vraiment.
+
+    C'est difficile d'abandonner l'idée... que j'ai raté quelque chose?
+
+    => REST.C
+
+*REST.GENERIC =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Parfois je me demande si j'ai raté quelque chose pendant mes aventures...
+
+    => REST.C
+
+*REST.C =
+    ?Q
+        Mais non. => REST.NO
+        Peut-être? => REST.YES
+
+REST.2 =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Est-ce que j'ai raté quelque chose pendant mes aventures?
+
+    ?Q
+        Mais non. => REST.NO
+        Peut-être? => REST.YES
+
+*REST.YES =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Hmm.... J'ai raté quelque chose...?
+
+    @A1
+
+*REST.NO =
+    ?B
+    (P1_CHICKPEA) => REST.NO_CHICKPEA
+    (P1_PINTO) => REST.NO_PINTO
+    (P1_FRANKIE) => REST.NO_FRANKIE
+    (P1_ZOEBANZO) => REST.NO_ZOEBANZO
+    => REST.NO_GENERIC
+
+*REST.NO_CHICKPEA =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Ah! Je suis bête. Je devrais me permettre de me reposer.
+
+*REST.NO_PINTO =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Génial. La seule chose cool qu'il me reste à faire, c'est de chiller. Ouais.
+
+*REST.NO_FRANKIE =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Oui! C'est tout simplement <s=6>IMPOSSIBLE!</s> Je n'ai absolument rien raté! Je suis un <s=10>BON CHIEN</s> après tout!
+
+*REST.NO_ZOEBANZO =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Comme c'est bête de ma part. Mon nouveau but devrait être de lâcher prise sur ces sentiments d'inquiétude et d'ambition.
+
+    Je m'efforcerai seulement de ressentir la chaleur du soleil et la compagnie de mes amis.
+
+*REST.NO_GENERIC =
+    [Portrait: PlayerOnePortrait, CrawlSound: PlayerOneSpeak]
+    Mais non.
+
+REST.FASTER_LIBERATION = Souvenirs...

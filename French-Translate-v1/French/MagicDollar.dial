@@ -1,0 +1,143 @@
+MAGIC_DOLLAR_DOLLARS_ALL_DESCRIPTION = Fais tout.
+MAGIC_DOLLAR_BOSS_ROCKY_DESCRIPTION = Bats Rocky.
+MAGIC_DOLLAR_BOSS_DOC_DESCRIPTION = Bats le Docteur Professeur Science.
+MAGIC_DOLLAR_BOSS_FACE_DESCRIPTION = Bats Proto-Providence.
+MAGIC_DOLLAR_BOSS_MUSHROOM_DESCRIPTION = Bats l'Ange Destructeur.
+MAGIC_DOLLAR_BOSS_DOC_TWO_DESCRIPTION = Bats à nouveau le Docteur Professeur Science.
+MAGIC_DOLLAR_BOSS_MUTATION_DESCRIPTION = Guéris une horrible maladie.
+MAGIC_DOLLAR_BOSS_DOC_THREE_DESCRIPTION = Bats le Docteur Professeur Science une fois de plus.
+MAGIC_DOLLAR_BOSS_BILLI_DESCRIPTION = Bats Billi' Bones et SAUVE LE MONDE!
+MAGIC_DOLLAR_BOSS_PROVIDENCE_DESCRIPTION = Anéantis l'idée même de l'avidité.
+MAGIC_DOLLAR_ACCESSORY_FRAGMENTS_ALL_DESCRIPTION = Trouve chaque Fragment de Personnalisation.
+MAGIC_DOLLAR_BADGE_FRAGMENTS_ALL_DESCRIPTION = Trouve chaque Fragment de Pouvoir.
+MAGIC_DOLLAR_FRIENDS_ALL_DESCRIPTION = Trouve chaque Ami.
+MAGIC_DOLLAR_COMPLETE_ALL_DESCRIPTION = Termine tous les niveaux.
+MAGIC_DOLLAR_COMPLETE_WORLD1_DESCRIPTION = Termine tous les niveaux du Monde 1.
+MAGIC_DOLLAR_COMPLETE_WORLD2_DESCRIPTION = Termine tous les niveaux du Monde 2.
+MAGIC_DOLLAR_COMPLETE_WORLD3_DESCRIPTION = Termine tous les niveaux du Monde 3.
+MAGIC_DOLLAR_COMPLETE_WORLD4_DESCRIPTION = Termine tous les niveaux du Monde 4.
+MAGIC_DOLLAR_COMPLETE_WORLD5_DESCRIPTION = Termine tous les niveaux du Monde 5.
+MAGIC_DOLLAR_COMPLETE_WORLD6_DESCRIPTION = Termine tous les niveaux du Monde 6.
+MAGIC_DOLLAR_COMPLETE_WORLD7_DESCRIPTION = Termine tous les niveaux du Monde 7.
+MAGIC_DOLLAR_COMPLETE_WORLD_C_DESCRIPTION = Termine tous les niveaux du Monde C.
+MAGIC_DOLLAR_NO_HIT_ALL_DESCRIPTION = Termine tous les niveaux sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD1_DESCRIPTION = Termine tous les niveaux du Monde 1 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD2_DESCRIPTION = Termine tous les niveaux du Monde 2 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD3_DESCRIPTION = Termine tous les niveaux du Monde 3 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD4_DESCRIPTION = Termine tous les niveaux du Monde 4 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD5_DESCRIPTION = Termine tous les niveaux du Monde 5 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD6_DESCRIPTION = Termine tous les niveaux du Monde 6 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD7_DESCRIPTION = Termine tous les niveaux du Monde 7 sans te faire toucher.
+MAGIC_DOLLAR_NO_HIT_WORLD_C_DESCRIPTION = Termine tous les niveaux du Monde C sans te faire toucher.
+
+# 100%
+MAGIC_DOLLAR_DOLLARS_ALL =
+    Bon sang! C'est tout. Ça y est! Tu as trouvé tous les dollars du jeu!
+    
+    Eh bien... voilà un dollar!
+
+    ...
+
+    Quoi? Tu t'attendais à autre chose?
+
+    Bon, c'est pas grand-chose, mais pourquoi tu ne jetterais pas un œil à l'écran titre?
+
+    Tu remarqueras peut-être un petit truc différent.
+
+    Bon... à plus!
+
+# Bosses
+MAGIC_DOLLAR_BOSS_ROCKY =
+    Woah! Tu as vraiment montré à Rocky de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_DOC =
+    Woah! Tu as vraiment montré au Docteur Professeur Science de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_FACE =
+    Woah! Tu as vraiment montré à Proto-Providence de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_MUSHROOM =
+    Woah! Tu as vraiment montré à l'Ange Destructeur de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_DOC_TWO =
+    Bien! Tu as encore montré au Docteur Professeur Science de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_MUTATION =
+    Woah! Tu as vraiment montré à cette horrible maladie de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_DOC_THREE =
+    Woah! Tu as encore une fois montré au Docteur Professeur Science de quel bois tu te chauffes! Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_BILLI =
+    Mince alors! Tu as vaincu BILLI' BONES et sauvé le monde? Voilà un dollar!
+
+MAGIC_DOLLAR_BOSS_PROVIDENCE =
+    Sapristi! Tu as anéanti l'idée même de l'avidité? Voilà un dollar!
+
+# Fragments
+MAGIC_DOLLAR_ACCESSORY_FRAGMENTS_ALL =
+    Bien! Tu as trouvé chaque {ACCESSORY_FRAGMENT_NAME}! Voilà un dollar!
+
+MAGIC_DOLLAR_BADGE_FRAGMENTS_ALL =
+    Bien! Tu as trouvé chaque {BADGE_FRAGMENT_NAME}! Voilà un dollar!
+
+MAGIC_DOLLAR_FRIENDS_ALL =
+    Wow! Tu as trouvé chaque AMI! Voilà un dollar!
+
+# Complete
+MAGIC_DOLLAR_COMPLETE_ALL =
+    Hein? Tu as terminé tous les niveaux du JEU? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD1 =
+    Hein? Tu as terminé tous les niveaux du Monde 1? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD2 =
+    Hein? Tu as terminé tous les niveaux du Monde 2? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD3 =
+    Hein? Tu as terminé tous les niveaux du Monde 3? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD4 =
+    Hein? Tu as terminé tous les niveaux du Monde 4? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD5 =
+    Hein? Tu as terminé tous les niveaux du Monde 5? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD6 =
+    Hein? Tu as terminé tous les niveaux du Monde 6? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD7 =
+    Hein? Tu as terminé tous les niveaux du Monde 7? Voilà un dollar!
+
+MAGIC_DOLLAR_COMPLETE_WORLD_C =
+    Hein? Tu as terminé tous les niveaux du Monde C? Voilà un dollar!
+
+
+# No hit
+MAGIC_DOLLAR_NO_HIT_ALL =
+    Hein? Tu as terminé tous les niveaux du JEU sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD1 =
+    Hein? Tu as terminé tous les niveaux du Monde 1 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD2 =
+    Hein? Tu as terminé tous les niveaux du Monde 2 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD3 =
+    Hein? Tu as terminé tous les niveaux du Monde 3 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD4 =
+    Hein? Tu as terminé tous les niveaux du Monde 4 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD5 =
+    Hein? Tu as terminé tous les niveaux du Monde 5 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD6 =
+    Hein? Tu as terminé tous les niveaux du Monde 6 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD7 =
+    Hein? Tu as terminé tous les niveaux du Monde 7 sans te faire toucher? Voilà un dollar!
+
+MAGIC_DOLLAR_NO_HIT_WORLD_C =
+    Hein? Tu as terminé tous les niveaux du Monde C sans te faire toucher? Voilà un dollar!
+

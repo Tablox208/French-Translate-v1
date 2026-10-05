@@ -1,0 +1,47 @@
+%GROWING_PLANT.1 = 
+    [Profile:BullDog]
+    Oh! Wow! Regarde toute cette bouffe!
+
+    Je suis un peu nouveau en jardinage, je sais pas trop à quoi je m'attendais.
+
+    Je ramasserai tout ça plus tard...
+
+    @A1
+
+    Oh, c'est {LIBERATION_ITEM}. Tu aimes ça, non? Prends-le donc.
+
+    @A2
+
+%GROWING_PLANT.2 = 
+    [Profile:BullDog]
+    Encore de la pizza! Je me plains pas!
+
+    Le jardinage a pas toujours été aussi excitant. Un point positif, je suppose.
+
+    @A1
+
+    Oh, c'est {LIBERATION_ITEM}, tu peux t'en occuper?
+
+    @A2
+
+%GROWING_PLANT.3 = 
+    [Profile:BullDog]
+    Je commence peut-être à me faire à l'idée du génie génétique...
+
+    @A1
+
+    C'est {LIBERATION_ITEM}, je vois bien que tu le veux.
+
+    @A2
+
+%GROWING_PLANT.4 = 
+    [Profile:BullDog]
+    Une récolte abondante! Ça devrait nous tenir un moment.
+
+    Merci de m'avoir aidé.
+
+    @A1
+
+    C'est {LIBERATION_ITEM}, c'est tout à toi.
+
+    @A2

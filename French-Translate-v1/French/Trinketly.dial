@@ -1,0 +1,119 @@
+TRINKET_NULL_NAME = Null
+TRINKET_NULL_DESCRIPTION = Oups.
+
+TRINKET_SOCK_NAME = Vieille Chaussette
+TRINKET_SOCK_DESCRIPTION = Où est l'autre?
+
+TRINKET_APPLE_CORE_NAME = Pomme Usagée
+TRINKET_APPLE_CORE_DESCRIPTION = Quoi? J'avais faim.
+
+TRINKET_FLAG_NAME = Joli Drapeau
+TRINKET_FLAG_DESCRIPTION = C'est quel pays?
+
+TRINKET_FLAG2_NAME = Mignon Drapeau
+TRINKET_FLAG2_DESCRIPTION = C'est quel pays?
+
+TRINKET_FIGURE_NAME = Poupée Garbanzo
+TRINKET_FIGURE_DESCRIPTION = On dirait l'original!
+
+TRINKET_FIGURE2_NAME = Poupée Pinto
+TRINKET_FIGURE2_DESCRIPTION = On dirait l'original!
+
+TRINKET_FIGURE3_NAME = Poupée Frankie
+TRINKET_FIGURE3_DESCRIPTION = On dirait l'original!
+
+TRINKET_FIGURE4_NAME = Poupée Ghostly
+TRINKET_FIGURE4_DESCRIPTION = On dirait l'original!
+
+TRINKET_MUSHROOM_NAME = Amanite Tue-Mouches
+TRINKET_MUSHROOM_DESCRIPTION = Ça s'écrit comme ça?
+
+TRINKET_SOCK2_NAME = Chaussette Bleue
+TRINKET_SOCK2_DESCRIPTION = Où est l'autre?
+
+TRINKET_RUBBER_DUCKY_NAME = Canard en Plastique
+TRINKET_RUBBER_DUCKY_DESCRIPTION = Enfin, un vrai ami.
+
+TRINKET_SUNSCREEN_NAME = Crème Solaire
+TRINKET_SUNSCREEN_DESCRIPTION = Tu devrais sûrement en mettre.
+
+TRINKET_LETTER_NAME = Lettre à Billi'
+TRINKET_LETTER_DESCRIPTION = \"Cher Papa, je te déteste.\"
+
+TRINKET_HONEY_NAME = Pot de Miel
+TRINKET_HONEY_DESCRIPTION = Les Abeilles te remercient avec leur délicieuse substance gluante.
+
+TRINKETLY_FAST_WAS_HERE = Va-t'en!
+
+TRINKETLY_FAST = Prends ça!
+
+*TRINKETLY.WAS_HERE = 
+    <c={SUBTLE_HEX}>(Si je reste bien immobile, ils partiront peut-être.)</c>
+
+%TRINKETLY.1 =
+    Oh! Tu m'as trouvé!
+
+    ...
+
+    Quoi? Je suis pas perdu ou quoi. Je suis juste, tu sais, là, à traîner.
+
+    ...
+
+    Hein? Tu t'attendais à ce que je te donne quelque chose?
+
+    Oh, euh d'accord... Tu peux avoir ça, je suppose?
+        
+    => TRINKETLY.TRINKET_GIVE
+
+%TRINKETLY.2 =
+    Oh? Marrant de te recroiser.
+
+    ...
+
+    Tu veux autre chose? Euh, tu peux avoir ça, je suppose.
+
+    => TRINKETLY.TRINKET_GIVE
+
+%TRINKETLY.3 =
+    Écoute... Je suis pas vraiment un être sociable. Y a une raison pour laquelle je suis si dur à trouver!
+
+    ...
+
+    Pfff, tu veux encore un truc hein?
+
+    Bon, je suis pas sans cœur. Je vois bien que tu le veux vraiment.
+
+    => TRINKETLY.TRINKET_GIVE
+
+TRINKETLY.4 =
+    Je sais déjà pourquoi t'es là!
+
+    => TRINKETLY.TRINKET_GIVE
+
+*TRINKETLY.TRINKET_GIVE =
+    @TELEGRAPH
+
+    @WAIT
+
+    @SHOOT
+
+    @WAIT_ITEM
+
+    ...
+
+    @NORMAL
+
+    Ça sert à rien... mais c'est classe hein?
+
+    Bon... à plus!
+
+*TRINKETLY.FAST_TRINKET_GIVE =
+    @TELEGRAPH
+
+    @WAIT
+
+    @SHOOT
+
+    @WAIT_ITEM
+
+    @NORMAL

@@ -1,0 +1,183 @@
+# BOSSES
+
+%BULL_DOG.FARM (!FOOD_ANY & FARM) =
+    J'ai trouvé des graines bizarres dans les poubelles... Je crois que c'est des choux.
+
+    Tu pourrais m'aider à les arroser? Peut-être qu'il se passera un truc, je sais pas.
+
+%BULL_DOG.PROVIDENCE (REST & DEFEATED:Providence) =
+    Hmm? Tu dis que t'as découvert le vaisseau spatial secret de Billi' Bones? Et qu'il t'a emmené dans un autre monde?
+
+    Et que c'est là-bas que t'as surmonté de grands défis, trouvé l'idée même de l'avidité et que tu l'as détruite?
+
+    ...
+    
+    Haha, mais de quoi tu parles?
+
+    <f=2,4>Tu devrais te reposer!</f> Retourne à tes vacances haha!
+
+%BULL_DOG.R1 (REST) =
+    C'est un super endroit pour se reposer le temps qu'on trouve quoi faire maintenant que Billi' Bones n'est plus là.
+
+    Beau boulot. Je crois qu'il est temps que tu t'accordes des vacances!
+
+    T'inquiète pas, on gère le reste.
+
+%BULL_DOG.R2 (REST) =
+    C'est dingue qu'ils aient construit tout un monde dans les nuages, pour qu'il reste vide aussi longtemps.
+
+    Personne n'avait les moyens d'y vivre...
+
+BULL_DOG.R3 (REST) =
+    <f=2,4>Ah! Quelle belle journée!</f>
+
+    Le soleil fait du bien.
+
+BULL_DOG.J1 (JAIL) =
+    J'arrive pas à croire qu'on soit coincés ici...
+
+    Alors que je pensais que ça ne pouvait pas être pire.
+
+BULL_DOG.J2 (JAIL) =
+    Tu vas trouver une solution, pas vrai? 
+
+    On est arrivés jusqu'ici...
+
+BULL_DOG.J3 (JAIL) =
+    Mon jardin me manque...
+
+    On aurait peut-être dû rester dans notre trou et garder la tête basse...
+
+%BULL_DOG.ESCAPED (HOME & ESCAPED) =
+    Ça fait tellement plaisir d'être à la maison.
+
+    Merci pour tout ce que tu fais.
+
+%BULL_DOG.ROCKY (HOME & DEFEATED:Rocky) =
+    Ah, tu dis que t'as eu un combat contre un rocher qui parle?
+
+    Haha, je crois que tu inventes!
+
+%BULL_DOG.DOC (HOME & DEFEATED:Doc) =
+    Tu dis que tu as combattu un cerveau prétentieux dans un bocal? 
+    
+    ...
+    
+    Ah, tu parles sûrement du Docteur Professeur Science. Oui, on s'est déjà rencontrés. 
+    
+    Tout le monde dit que c'est un génie, mais moi je sais que c'est un imbécile. 
+    
+    Quelqu'un avec un minimum de jugeote ne travaillerait pas dans cet endroit minable... 
+
+%BULL_DOG.GRAND_MUSHROOM (HOME & DEFEATED:Mushroom) =
+    Tu as affronté un Champignon Toxique? Hmm...
+
+    Bon, je suis sûr que tu sais maintenant pourquoi on l'appelle la Caverne "Magique".
+
+    Il paraît qu'ils se servent des fumées toxiques de cette grotte pour contrôler les gens...
+
+%BULL_DOG.FACE (HOME & DEFEATED:Face) =
+    Tu as combattu un robot globe oculaire de surveillance?
+
+    Eh bien, c'est une façon de faire travailler les gens...
+
+%BULL_DOG.LEMON (HOME & DEFEATED:Lemon) =
+    Tu as combattu un Homme Citron Géant? 
+
+    ...
+
+    Et après il a fait un super salto?
+
+    ...
+
+    Euh, wow! J'aurais voulu être là!
+
+%BULL_DOG.2 (HOME & FRIENDS_10) =
+    Je vois que tu as ramené d'autres amis à la maison...
+
+    Ça me touche vraiment! Je reste ici pour m'assurer que tout le monde est bien pris en charge.
+
+# FARM
+
+# BULL_DOG
+
+BULL_DOG.MUSHROOM (FARM & PRESENT:MUSHROOM) =
+    Ça fait vraiment plaisir d'avoir {MUSHROOM} à la maison.
+
+    [profile:Mushroom]
+    Haha! Je vais transformer <s=6>TOUT LE MONDE</s> en engrais!
+
+    [profile:BullDog]
+    Hmm... enfin, il a bon cœur.
+
+BULL_DOG.FARM_SOME_2 (FARM_SOME & FRIENDS_25) =
+    Ça fait plaisir d'avoir un peu d'aide à la ferme.
+
+BULL_DOG.FARM_SOME (FARM_SOME) =
+    Aucune idée de ce qu'on cultive.
+
+BULL_DOG.FARM_ALL (FARM_ALL) =
+    On a plein de nourriture! Merci à ces choux mutants!
+
+BULL_DOG.1 (HOME & !FRIENDS_10) =
+    Content de te revoir, mon pote.
+
+    J'essaie toujours de trouver comment sauver mes amis...
+
+BULL_DOG.FARM_2 (FARM_NONE) =
+    Tu pourrais m'aider à arroser le jardin? Peut-être qu'il se passera un truc, je sais pas.
+
+# LIBERATION
+
+BULL_DOG.FASTER_LIBERATION = Merci beaucoup!
+
+*BULL_DOG.EVIL_LIBERATION =
+    Woah. Désolé pour ça, je sais pas ce qui m'a pris.
+
+*BULL_DOG.LIBERATION =
+    @A1
+
+    [Portrait: BullDogPortraitAngry, CrawlPitch: 1000, AutoProceed: true, CrawlTime: 12000]
+    <s=16>LÂCHEZ-MOI BANDE DE MONSTRES!!! JE VAIS TOUS VOUS DÉTRUIRE!!! JE VAIS VOUS FAIRE REGRETTER D'ÊTRE NÉS!!! OUAIS C'EST ÇA JE SUIS PLUTÔT COSTAUD!!! JE POURRAIS MÊME-</s>
+    
+    @A2
+
+    [Portrait: BullDogPortraitSurprised, CrawlPitch: 0, CrawlTime: 1000, AutoProceed: false]
+    Oh!
+
+    [Portrait: BullDogPortraitReflective]
+    Je croyais que c'était quelqu'un d'autre...
+
+    [Portrait: BullDogPortrait]
+    Excuse-moi, je passe une mauvaise journée.
+
+    Euh... Tu es qui?
+
+    ?Q
+        Aucune idée => BULL_DOG.LIBERATION_Q1R1
+        Un héros => BULL_DOG.LIBERATION_Q1R2
+
+*BULL_DOG.LIBERATION_Q1R1 =
+    [Portrait: BullDogPortraitReflective]
+    Oh euh, tu sais pas qui tu es? Je suppose que ça m'arrive aussi des fois. 
+
+    => BULL_DOG.LIBERATION_C
+
+*BULL_DOG.LIBERATION_Q1R2 =
+    Hah, un héros? Je vais pas te contredire! Ces caisses sont étonnamment solides...
+
+    => BULL_DOG.LIBERATION_C
+
+*BULL_DOG.LIBERATION_C =
+    [Portrait: BullDogPortrait]
+    Je t'ai jamais vu dans le coin, {ABRA_CADAVER} t'a capturé toi aussi?
+
+    En tout cas, ça fait plaisir de rencontrer quelqu'un de sensé. Moi c'est Broose.
+
+    Mon ami paranoïaque a construit un bunker souterrain au sud d'ici...
+
+    Je me suis souvent moqué de lui pour ça... pfff, il va être insupportable avec ça.
+
+    Euh, bref tu peux venir là-bas quand tu veux. J'espère te revoir, mon pote.
+
+    Il faut que je trouve comment retrouver mes amis...

@@ -1,0 +1,1326 @@
+# Friend liberation and home base flavor dialogue
+
+# HOME BASE/ REST/ JAIL
+
+BEAR_TRAPPED.FASTER_LIBERATION = DÉGAGE!
+
+BEAR_TRAPPED =
+    [profile: Bear]
+    <s=4>AH! JE SUIS LIBRE!</s> 
+    
+    TU N'AS AUCUNE IDÉE DEPUIS COMBIEN DE TEMPS JE SUIS COINCÉ ICI AVEC CES <s=10>MONSTRES!</s>
+
+    <s=6>DÉGAGE DE MON CHEMIN!</s>
+
+    @A1
+
+BEAR.FARM (FARM & !FARM_ALL) =
+    <s=2>OH MON DIEU. PAS LES CHOUX! JE SUIS ALLERGIQUE À CEUX-LÀ PLUS QUE TOUT!</s>
+
+    @A1
+
+    <s=4>OH ET LA TERRE! NE ME FAITES MÊME PAS COMMENCER LÀ-DESSUS!</s>
+
+    @A1
+
+    [profile:BullDog]
+    Héhé, ce type est marrant.
+
+    [profile:Bear]
+    OH, LA DOULEUR!
+
+BEAR.KITCHEN_1 (KITCHEN) =
+    <s=5>BON SANG!</s> JE SAIS PAS CE QUE JE FAIS!
+
+    POURQUOI JE DOIS AIDER EN CUISINE!
+
+    JE SUIS ALLERGIQUE À ABSOLUMENT TOUT!
+
+    @A1
+
+    AHH! MES ALLERGIES! ELLES ME RENDENT <s=10>LARGE!</s>
+
+    <s=20>LARGE!</s>
+
+BEAR.KITCHEN_2 (KITCHEN) =
+    MES ALLERGIES!
+
+    @A1
+
+    <s=10>AHH!</s>
+
+BEAR.J1 (JAIL) =
+    <s=2>AHH! OH MON DIEU, JE SUIS ALLERGIQUE À LA PRISON!</s>
+
+    ...
+
+    Attends, finalement non.
+
+    Wow! La prison c'est peut-être pas si mal!
+
+BEAR.J2 (JAIL) =
+    Je veux jamais partir!
+
+BEAR.R1 (REST) =
+    J'ai enfin eu mon médicament contre les allergies.
+
+    Désolé, je suppose que je ne suis plus très drôle...
+
+BEAR.1 (HOME & !KITCHEN) =
+    AHH! <s=8>ÉLOIGNE-TOI DE MOI!</f>
+
+    JE SUIS ALLERGIQUE À MOURIR!
+
+    @A1
+
+    REGARDE CE QUE TU AS FAIT!
+
+    JE SUIS DEVENU <s=16>LARGE!</f>
+
+
+BEAR.2 (HOME & !KITCHEN) =
+    S'IL TE PLAÎT! <s=8>PITIÉ!</f>
+
+    @A1
+
+    <s=8>POURQUOI?</f>
+
+BEAR.3 (HOME & !KITCHEN) =
+    <s=8>AHHH!</f>
+
+    @A1
+
+    <s=8>MES ALLERGIES!</f>
+
+FAT_DOG.J1 (JAIL) = 
+    Ne me parle pas pendant que je suis en prison.
+
+FAT_DOG.R1 (REST) = 
+    Tu es plus cool que je ne le pensais. Merci pour tout ton travail.
+
+FAT_DOG.1 (HOME) = 
+    Ne me parle pas pendant que je fais de l'exercice.
+
+PLANTAIN.KITCHEN (KITCHEN) = 
+    J'espère que tu aimes la soupe de banane!
+
+PLANTAIN.LIVING_ROOM (LIVING_ROOM) = 
+    Ils feraient bien d'avoir des bananes au menu la prochaine fois.
+
+PLANTAIN.J1 (JAIL) =
+    Je plantanifie une évasion.
+
+PLANTAIN.R1 (REST) =
+    Pfff, j'ai du sable dans ma pelure.
+
+PLANTAIN.2 (HOME) =
+    Je peux manger autant de bananes que je veux, je suis une banane plantain. Lâche-moi.
+
+DOG.J1 (JAIL) =
+    Ouaf...
+
+DOG.1 (HOME | REST) =
+    Ouaf!
+
+MOLE.GYM (GYM) = 
+    Je vais faire un soulevé de <f,2,8>taupe</f> avec ce truc.
+
+    Non, je voulais dire un soulevé de terre.
+
+    Zut de flûte.
+
+MOLE.1 (FARM) =
+    Cherche-moi et je te creuse une <f=2,8>tomme.</f> 
+
+    Attends, je veux dire une tombe.
+
+    Zut de flûte.
+
+MOLE.2 (FARM) =
+    Pardon. Je ne le pensais pas...
+
+MOLE.3 (KITCHEN) =
+    Contrairement aux idées reçues, les taupes <s=4>N'AIMENT PAS</s> manger de la terre.
+
+    <s=32>PAS DU TOUT!</s>
+
+%MOLE.4 (HOME & !GYM & !FARM & !KITCHEN) = 
+    J'ai creusé cet endroit pour la <s=8>RAISON LA PLUS ÉVIDENTE.</s>
+
+    [AutoProceed: true, CrawlTime: 6000]
+    <s=16>BIEN SÛR qu'un HOMME SQUELETTE MALÉFIQUE ferait durer l'hiver éternellement pour que tout le monde doive vivre dans sa GRANDE TOUR COÛTEUSE.</s>
+    
+    [AutoProceed: false, CrawlTime: 1000]
+    <s=20>BIEN SÛR QUE C'EST POUR ÇA!</s>
+
+MOLE.5 (HOME & !GYM & !FARM & !KITCHEN) =
+    <s=4>NON</s> je ne me répéterai <s=16>PAS</s>.
+
+MOLE.J1 (JAIL) =
+    T'inquiète pas, je vais nous sortir d'ici en creusant. 
+    
+    Dès que j'en aurai envie.
+
+MOLE.R1 (REST) =
+    Je fais des châteaux de sable.
+
+STARFISH.LIVING_ROOM (LIVING_ROOM) =
+    Merci pour tout ce que tu fais.
+
+STARFISH.KITCHEN (KITCHEN) =
+    Tu savais que les étoiles de mer mâles peuvent accoucher?
+
+    Attends, ça c'est les hippocampes.
+    
+    Ou pas?
+
+    ...
+
+    Bref, je prépare des quesadillas.
+
+STARFISH.CRAFTS (CRAFTS) =
+    Je fais des travaux manuels!
+
+STARFISH.J1 (JAIL) =
+    J'aime pas trop être en Prison.
+
+STARFISH.R1 (REST) =
+    J'attends que personne ne regarde pour pouvoir mettre mon maillot de bain.
+
+STARFISH.1 (HOME) =
+    Il est vrai que je peux régénérer mes membres, oui...
+
+    Tu sais ce que je ne peux pas régénérer?
+
+    <s=10>Mes sentiments.</s>
+
+STARFISH.2 (HOME) =
+    <s=4>S'il te plaît</s> ne blesse pas mes sentiments, je ne m'en remettrai jamais.
+
+JELLYFISH_FRIEND.J1 (JAIL) =
+    J'adore être en prison, ça fait comme à la maison.
+
+JELLYFISH_FRIEND.R1 (REST) =
+    Même un psychopathe comme moi aime la plage.
+
+JELLYFISH_FRIEND.FARM_1 (FARM_NONE | FARM_SOME) =
+    <s=10>OUAIS!</s> regarde ce truc <s=10>POUSSER!</s>
+
+    J'ai trop hâte de manger toute cette <s=5>VIANDE!</s>
+
+    [Profile:BullDog]
+    <f=0,4>Mmmhmm</f> c'est ça, c'est d'ici que vient la viande.
+
+    (C'est la seule façon que j'ai trouvée pour les convaincre de m'aider.)
+
+JELLYFISH_FRIEND.FARM_2 (FARM_ALL) =
+    Le monde est un bel endroit, rempli de délicieux choux-viande que je peux chasser et dévorer.
+
+JELLYFISH_FRIEND.KITCHEN_1 (KITCHEN) =
+    Corvée de cuisine? Qu'est-ce que je suis censé faire de tout ce bazar?
+
+    Nous, nobles méduses, n'avons que faire d'une argenterie aussi prétentieuse!
+
+    Quand on a faim, on part à la chasse! Et on cueille de la viande sur les arbres à viande!
+
+    <f=0,5>Cuisiner?</f> Ne me fais pas rire! C'est bien meilleur cru!
+
+    Car la noble méduse doit s'affirmer comme le <s=5>PRÉDATEUR SUPRÊME!</s>
+
+JELLYFISH_FRIEND.KITCHEN_2 (KITCHEN) =
+    <s=5>Je suis la noble méduse... La noble méduse ne fait pas la cuisine...</s>
+
+JELLYFISH_FRIEND.1 (HOME & !FARM & !KITCHEN) =
+    Je suis la noble méduse. Le célèbre <s=5>PRÉDATEUR SUPRÊME!</s>
+
+JELLYFISH_FRIEND.2 (HOME & !FARM & !KITCHEN) =
+    Imagine un peu. 
+    
+    Tu es le pitoyable lion, trottinant dans la savane, sans le moindre souci.
+
+    <s=10>MAIS SOUDAIN!</s> La noble méduse surgit de nulle part et t'<s=10>ARRACHE</s> la face!
+
+    <s=5>HAHA! STUPIDE LION!</s> Tu n'es rien! Juste un dîner ambulant pour moi!
+
+    Car je suis La <s=5>NOBLE MÉDUSE.</s> Le célèbre <s=15>PRÉDATEUR SUPRÊME!</s>
+
+JELLYFISH_FRIEND.3 (HOME & !FARM & !KITCHEN) =
+    <s=5>Je suis la noble méduse...</s>
+
+ZOE.ZOEBANZO.1 (ZOEBANZO) =
+    Wow, donc tu t'appelles Zoe toi aussi?
+
+    C'est un peu bizarre.
+
+ZOE.ZOEBANZO.2 (ZOEBANZO) =
+    Qu'est-ce que tu en penses?
+
+    ?Q
+        On est jumelles. => ZOE.ZOEBANZO_TWINS
+        Je suis ton clone. => ZOE.ZOEBANZO_CLONE
+        Tu es moi, venue du futur. => ZOE.ZOEBANZO_FUTURE
+        Juste une coïncidence. => ZOE.ZOEBANZO_COINCIDENCE
+
+*ZOE.ZOEBANZO_TWINS =
+    Donc nos parents nous ont donné le même nom?
+    
+    C'est assez stupide.
+
+*ZOE.ZOEBANZO_CLONE =
+    Ce n'est pas trop tiré par les cheveux... mais dans quel but?
+    
+    {ABRA_CADAVER} doit avoir ses raisons...
+
+*ZOE.ZOEBANZO_FUTURE =
+    Je sais pas. J'ai toujours trouvé que les voyages dans le temps, c'était un peu un gadget nul.
+
+*ZOE.ZOEBANZO_COINCIDENCE =
+    Ouais, tu as sûrement raison.
+
+    Quand même, c'est assez bizarre.
+
+ZOE.ZOEBANZO.3 (ZOEBANZO) =
+    Écoute, je n'y réfléchirais vraiment pas trop.
+
+ZOE.LIVING_ROOM (LIVING_ROOM | KITCHEN) =
+    Non. Je n'aime pas manger des cerveaux.
+
+    C'est un stéréotype nuisible.
+
+ZOE.J1 (JAIL) =
+    Mon nom de prison est Zoey.
+
+    J'ai ajouté un \"Y\".
+
+ZOE.R1 (REST) =
+    Je travaille mon bronzage.
+
+    Je ne sais pas trop de quelle couleur ça va me rendre.
+
+ZOE.1 (HOME) =
+    ?B
+        (TINT_MINT) => ZOE.MINT
+        (TINT_GREEN) => ZOE.GREEN
+        => ZOE.NORMAL
+
+*ZOE.MINT =
+    Tu es <c={MINT_HEX}>Menthe</c>. Je suis <c={GREEN_HEX}>Verte</c>. Nous ne sommes pas pareilles.
+
+*ZOE.GREEN =
+    Ça fait plaisir de voir un autre visage <c={GREEN_HEX}>Vert</c> par ici.
+
+*ZOE.NORMAL =
+    Quand je suis devenue <c={GREEN_HEX}>Verte</c>, tous mes cheveux sont tombés.
+
+    Je l'assume.
+
+BALLOON_ENJOYER.R1 (REST) =
+    Monsieur Ballon adore la plage.
+
+BALLOON_ENJOYER.J1 (JAIL) =
+    Je n'aime pas être dans cette pièce...
+
+    <s=4>J'AI BESOIN D'ESPACE POUR COURIR ET JOUER!</s>
+
+BALLOON_ENJOYER.1 (HOME) =
+    Ne te permets pas de m'adresser la parole.
+
+COMET.R1 (REST) = 
+    J'ai nagé vers l'ouest pendant très longtemps. Tu sais, juste pour faire un peu d'exercice.
+
+    Il n'y avait rien là-bas, juste un océan sans fin.
+
+    Ouais, il n'y a vraiment rien à l'ouest d'ici.
+
+COMET.R2 (REST) =
+    Je ne pense pas qu'il y ait quoi que ce soit de cool caché à l'ouest d'ici.
+
+COMET.J1 (JAIL) = 
+    C'est un peu à l'étroit ici...
+
+    <s=4>UN PEU À L'ÉTROIT!</s>
+
+COMET (HOME) =
+    C'est important de faire de l'exercice 10 heures par jour.
+
+    Moins que ça? Pathétique.
+
+CONCERNING_DUCK.J1 (JAIL) =
+    <f=0,16>Ble-ble-bleh...</f>
+
+CONCERNING_DUCK (HOME | REST) =
+    <f=0,16>Ble-Ble-Bleh!</f>
+
+SQUICTOPUS.J1 (JAIL) =
+    <f=4,16>LALALA!</f> J'ADORE ÊTRE EN PRISON! <f=4,16>LALALA!</f>
+
+SQUICTOPUS.R1 (REST) =
+    <f=4,16>LALALA!</f> J'ADORE ÊTRE SUR LA PLAGE! <f=4,16>LALALA!</f>
+
+SQUICTOPUS (HOME) =
+    <f=4,16>LALALA!</f> J'ADORE ÊTRE SQUICTOPUS! <f=4,16>LALALA!</f>
+
+SOCKY.KITCHEN (KITCHEN) = 
+    J'essore ma <f=2,10>Sueur de Socky</f> iconique dans la soupe.
+
+SOCKY.FARM (FARM & !FARM_ALL) =
+    Broose veut que j'aide au jardin? Non merci. Plutôt mourir.
+
+    Regarde-moi cet abruti.
+
+    [profile:BullDog]
+    J'adore vraiment aider mes amis.
+
+    [profile:Socky]
+    Méprisable. Je vais tuer ce type.
+
+%SOCKY.J1 (JAIL) =
+    Montons un gang.
+
+    On pourrait s'appeler Les Sockies.
+
+    On serait craints, et aimés.
+
+SOCKY.J2 (JAIL) =
+    Salut camarade de gang.
+
+SOCKY.R1 (REST) =
+    Pfff, ma chaussette est toute mouillée.
+
+    Tu n'aurais jamais dû sauver le monde.
+
+SOCKY (HOME) =
+    Tu devrais songer à mettre une chaussette sur ta tête.
+
+MUSHROOM.J1 (JAIL) =
+    Haha! Tout le monde est coincé dans une petite pièce avec moi!
+
+    Qui sait ce que je pourrais manigancer! Ce que je pourrais faire!
+
+    Probablement un truc lié aux <f=8,16>CHAMPIGNONS!</f>
+
+MUSHROOM.J2 (JAIL) =
+    C'est pas moi qui suis coincé ici avec toi, c'est toi qui es coincé ici avec moi! Hahaha!
+
+MUSHROOM.R1 (REST) =
+    Hé, y a des <f=2,4>champignons</f> sur la plage?
+
+MUSHROOM (HOME) =
+    Haha! J'adore propager mes <f=8,16>CHAMPIGNONS!</f>
+
+DONUT.GYM (GYM) =
+    Mais qu'est-ce que c'est que ça? Où sont les donuts gratuits?
+
+DONUT.FARM_1 (FARM_NONE) = 
+    Qu'est-ce qu'on cultive ici les amis? Des donuts? Hah! Ce serait idiot, non?
+
+DONUT.FARM_2 (FARM_SOME) = 
+    Ça allait jusqu'à ce que je voie un donut jaillir du chou.
+
+    Maintenant ça me fait réfléchir à des choses compliquées...
+
+DONUT.FARM_3 (FARM_ALL) = 
+    Apparemment je suis né d'un chou.
+
+    Ça explique tout.
+
+DONUT.KITCHEN_1 (KITCHEN) = 
+    Je suis de corvée de cuisine! Hihi, j'espère que personne ne me prendra pour le dîner!
+
+    Heureusement pour moi! J'ai la <f=0,10>peau venimeuse!</f>
+    
+    <s=5>AUSSI</s> j'ai une queue détachable!
+
+    <s=10>ET</s> je peux tirer du sang par les yeux!
+
+    Heh, ouais, j'ai plein de mécanismes de défense.
+
+DONUT.KITCHEN_2 (KITCHEN) = 
+    Je fais <f=0,10>très attention</f> à ne pas mettre de mon venin dans la nourriture!
+
+DONUT.J1 (JAIL) =
+    Hé... tu veux rejoindre mon gang?
+
+    C'est en rapport avec les donuts.
+
+DONUT.R1 (REST) =
+    Tout le monde me prend pour une bouée de sauvetage, c'est vraiment agaçant.
+
+DONUT (HOME & !KITCHEN & !FARM) =
+    Contrairement aux idées reçues, je ne suis pas un tore!
+    
+    Je suis juste un donut.
+
+%FISH.R1 (REST) =
+    Mon dieu, je déteste être sur la plage--Attends. Non en fait. <f=4,8>J'adore la plage!</f>
+
+FISH.R2 (REST) =
+    C'est vraiment sympa, merci.
+
+FISH.J1 (JAIL) =
+    Mon dieu, je déteste être en prison.
+
+FISH (HOME) =
+    Mon dieu, je déteste être un poisson. C'est tellement de boulot!
+
+MERCHANT.J1 (JAIL) =
+    mes combines louches me manke...
+
+MERCHANT.R1 (REST) =
+    <f=2,4>oooooo</f> OUAIS MEC, j'ador la plaje.
+
+MERCHANT (HOME) =
+    peut-êtr ke c'étè moi la marchandise depui le début...
+
+MERCHANT.2 (HOME) =
+    jtm, hihi!
+
+ICE_CUBE.R1 (REST) =
+    Je ne bronze pas, je brûle juste.
+
+ICE_CUBE.J1 (JAIL) =
+    Il fait plutôt chaud ici. 
+    
+    Je commence à transpirer un peu!
+
+ICE_CUBE (HOME) =
+    Je suis trop cool.
+
+CLOUD.R1 (REST) =
+    <f=2,4>Ahhh</f>, regarde-moi ça. Pas un nuage dans le ciel.
+
+CLOUD.J1 (JAIL) = 
+    Je préfère la prison de nuages, mais chacun ses goûts.
+
+CLOUD.GYM_SNAIL (GYM & PRESENT:SNAIL) =
+    Je n'ai pas vraiment besoin de faire de l'exercice.
+
+    Je dois avouer. Je suis <s=5>FOLLEMENT</s> amoureux de {SNAIL}!
+
+    Je ne sais juste pas comment le lui dire...
+
+CLOUD.1 (HOME) =
+    Je suis un Cumulus Congestus, je n'ai pas de temps pour toi.
+
+CLOUD.2 (HOME) =
+    Ouais c'est ça, je connais des mots de nuage.
+
+CLOUD.3 (HOME) =
+    <f=4,10>MOTS DE NUAGE</s>
+
+SNAIL.FARM (FARM & !FARM_ALL) =
+    J'attends le moment parfait pour mettre ma bave <s=4>PARTOUT SUR</s> les choux!
+
+    {BULL_DOG} n'arrête pas de s'énerver contre moi hihi!
+
+    <s=8>MAIS JE NE M'ARRÊTERAI PAS!</s>
+
+    <s=8>JAMAIS!</s>
+
+SNAIL.KITCHEN (KITCHEN) =
+    J'espère que ça dérange personne si je mets ma <s=10>BAVE</s> dans la nourriture!
+
+SNAIL.GYM (GYM) =
+    <s=4>Je fais de la muscu pour que quelqu'un finisse par m'aimer...</s>
+
+    <s=8>Ça marche?!</s>
+
+    <s=16>Tu m'aimes???</s>
+
+SNAIL.J1 (JAIL) = 
+    <f=2,4>Prison d'Escargot! Prison d'Escargot! Prison d'Escargot!</f>
+
+SNAIL.R1 (REST) =
+    Chaque jour je mets un peu de ma bave dans l'océan.
+
+    <f=2,4>Un jour il y aura plus de bave que d'eau!</f>
+
+    Ahhh... un jour.
+
+SNAIL.R2 (REST) =
+    C'est le rêve de ma vie de transformer cet océan en bave d'escargot.
+
+SNAIL.1 (HOME) = 
+    <s=5>S'IL TE PLAÎT!</s> Je veux juste te toucher avec ma <s=10>BAVE!</s>
+
+SNAIL.2 (HOME) = 
+    <s=10>BAVE!</s>
+
+PEA.GYM (GYM & PRESENT:JellyfishFriend) =
+    Je m'entraîne dur pour devenir gros et musclé afin de pouvoir repousser mon prédateur naturel.
+
+    La noble méduse.
+
+PEA.KITCHEN (LIVING_ROOM | KITCHEN) =
+    Je n'aime pas la nourriture.
+
+PEA.J1 (JAIL) =
+    Personne ne s'attaque au Gang des Pois.
+
+PEA.R1 (REST) =
+    J'ai fait pipi dans l'eau. Hahaha!
+
+PEA (HOME) =
+    Je suis tellement petit et rond! Je m'attire toujours des ennuis.
+
+BURT.KITCHEN (KITCHEN) =
+    Je prépare du matar paneer et du bengan bhartha.
+
+BURT.J1 (JAIL) =
+    Hé...
+
+BURT.R1 (REST) = 
+    J'ai fait des cauchemars où j'étais coincé sur une île.
+
+    C'est pas si terrible.
+
+BURT (HOME) =
+    Hé.
+
+BURD.J1 (JAIL) =
+    C'est agréable d'avoir une conversation polie, même dans des circonstances comme celles-ci.
+
+BURD.R1 (REST) =
+    L'air frais de l'océan fait des merveilles pour ma toux.
+
+BURD.1 (HOME) =
+    <f=16,32>CAAAAAAAAAAAAAAAHHHH!</f>
+
+COOL_DOG.J1 (JAIL) =
+    Je ne dirai rien à personne.
+
+COOL_DOG.R1 (REST) =
+    C'est plutôt ennuyeux.
+
+COOL_DOG.1 (HOME) =
+    Je suis plutôt cool.
+
+COW_DOG.J1 (JAIL) =
+    MARF...
+
+COW_DOG (HOME | REST) =
+    MARF! MARF!
+
+CRABOI.J1 (JAIL) =
+    Hmph. La prison? Pas si terrible pour des durs à cuire comme nous hein?
+
+CRABOI.R1 (REST) =
+    J'ai découpé des trous dans toutes les bouées de sauvetage.
+
+CRABOI.CRAFTS_1 (CRAFTS & PRESENT:CowDog) = 
+    Je jure sur <s=10>DIEU</s> que si ce type dit encore une fois marf...
+
+CRABOI.CRAFTS_2 (CRAFTS & !PRESENT:CowDog) = 
+    J'essaie de dessiner le contour de ma main pour m'aider à dessiner une dinde.
+
+    Mais ça ne marche <s=6>PAS</s>???
+
+    Héhé, genre <s=12>QUOI?</s>
+
+CRABOI.CRAFTS_3 (CRAFTS & !PRESENT:CowDog) = 
+    <s=4>Attends? Je suis un crabe???</s>
+
+    <s=6>Vous me le diriez si j'étais un crabe, hein?</s>
+
+    <s=8>HEIN?</s>
+
+CRABOI.GYM (GYM) = 
+    Je m'entraîne dur chaque jour pour garder ma force de pince.
+
+    Un jour je couperai le monde en deux.
+
+CRABOI.KITCHEN (KITCHEN) = 
+    Je suis là-haut en train de faire la préparation pour la cuisine.
+
+    Du moins c'est ce qu'ils croient.
+
+CRABOI (HOME & !GYM & !FARM & !KITCHEN & !CRAFTS) =
+    J'adore pincer! J'aime tellement pincer que j'ai dû aller à l'hôpital une fois.
+
+    J'ai dû rendre visite à mon ami, car il est trop lent pour éviter mes coups de pince.
+
+    Il ne s'en remettra jamais financièrement.
+
+CRABOI (HOME) =
+    ...
+
+    Oh excuse-moi, j'étais occupé à méditer sur l'immortalité du crabe.
+
+CUBELDA.R1 (REST) =
+    Le sable et le sucre, c'est pratiquement la même chose.
+
+CUBELDA.J1 (JAIL) =
+    La prison c'est plutôt sucré en fait.
+
+CUBELDA.KITCHEN (KITCHEN) = 
+    Je mets des <s=6>SACS</s> et des <s=12>SACS</s> de sucre dans la nourriture!
+
+CUBELDA.LIVING_ROOM (LIVING_ROOM) = 
+    Je mets des <s=6>SACS</s> et des <s=12>SACS</s> de sucre sur MA nourriture!
+
+CUBELDA.1 (HOME) =
+    Hihi! Je suis un morceau de sucre! 
+    
+    J'ai été créé par <s=5>BIG DENTISTE</s> pour les aider à gagner des <s=2>millions!</s>
+
+    <s=10>DES MILLIONS!</s>
+
+CUBELDA.2 (HOME) =
+    <s=100>DES MILLIONS!</s>
+
+FRUG.J1 (JAIL) =
+    Frug...
+
+FRUG.R1 (REST) =
+    Frug Frug Frug!
+
+FRUG.1 (HOME) =
+    Frug Frug Frug Frug <f=8,16>Grenouille</f>.
+
+    Oups. Je voulais dire Frug.
+
+FRUG.2 (HOME) =
+    Tant que je maintiens ma façade d'idiot, je ne peux pas être puni pour mes actes.
+
+    Je compte sur toi pour garder ce lapsus entre nous? Sinon je devrais peut-être faire quelque chose de <s=5>vraiment méchant.</s>
+
+    Tu n'aimerais pas me voir quand je deviens <s=10>méchant.</s>
+
+FRUG.3 (HOME) =
+    Frug Frug Frug!
+
+KEYBO.FARM (FARM & !FARM_ALL) =
+    Broose ne sait pas que je ne vais <s=10>PAS</s> du tout aider au jardin.
+
+    Je me cache, j'attends le moment parfait pour voler toute la nourriture pour moi.
+
+    Oups! Je n'étais pas censé te dire ça.
+
+KEYBO.R1 (REST) =
+    Y a rien à voler ici. À quoi bon?
+
+KEYBO.J1 (JAIL) =
+    Tu crois que je vais tous nous faire sortir d'ici?
+
+    Juste parce que mon visage ressemble à une clé?
+
+    Hmph, tu ne devrais peut-être pas supposer ce genre de choses!
+
+KEYBO.J2 (JAIL) =
+    Et si c'était toi qui nous faisais sortir d'ici? Tu y as déjà pensé?
+
+KEYBO (HOME) =
+    J'adore voler mes amis malgré leurs pathétiques serrures.
+
+    Ça m'a coûté une fortune de me faire refaire le visage en clé par chirurgie esthétique.
+
+    Je dois rentabiliser mon investissement.
+
+COOL_GHOST.R1 (REST) =
+    <f=2,8>FÊÊÊÊTE À LA PLAGE!</f>
+
+COOL_GHOST.J1 (JAIL) =
+    <f=2,8>PRIIIIIIIIIIIIIIIIIIISOOOOOOOON!</f>
+
+COOL_GHOST.1 (HOME) =
+    Bon j'avoue, je ne suis pas vraiment un fantôme.
+
+    Ne dis mon secret à personne ou je vais <s=8>CRIER tRÈS FORT!!!</s>
+
+COOL_GHOST.3 (HOME) =
+    Je travaille mes manières de fantôme. Regarde ça...
+    
+    <f=8,16>BOUUUUH!</f>
+    
+    Haha, tu t'es fait complètement pulvériser, idiot.
+
+COOL_GHOST.4 (HOME) =
+    Je suis flippant, je fais peur, de quoi un homme a-t-il besoin d'autre?
+
+CARROT.CRAFTS_1 (CRAFTS & PRESENT:CRABOI) =
+    Ce type me fait un peu flipper.
+
+CARROT.CRAFTS_2 (CRAFTS & !PRESENT:CRABOI) =
+    J'apprécie les arts.
+
+CARROT.KITCHEN (KITCHEN) =
+    Quand on fait un sauté, il faut mettre les carottes en premier avant tout le reste.
+
+    Comme ça elles deviennent bien tendres.
+
+CARROT.FARM (FARM & PRESENT:BULLDOG) = 
+    Si on fait pousser une carotte avec des hot-pants plus sexy que les miens, je n'aurai pas le choix.
+
+    Je la dévorerai de la façon la plus vorace possible.
+
+    Peu m'importe qu'elle puisse parler. C'est comme ça. Il ne peut y en avoir qu'un.
+
+    [profile:BullDog]
+    De quoi il parle?
+
+    [profile:Carrot]
+    Rien qui te concerne Broose.
+
+CARROT.J1 (JAIL) =
+    Au moins mon pantalon va bien.
+
+CARROT.R1 (REST) =
+    Je pourrais couper mes hot-pants en hot-shorts.
+
+CARROT (HOME) =
+    Tu ne dois pas toucher à mes hot-pants. Sinon tu le paieras.
+
+ONION.J1 (JAIL) =
+    Je sais que je suis en prison, mais je me suis promis de ne pas pleurer.
+
+ONION.R1 (REST) =
+    Tu as vraiment fait du bon travail.
+
+    Ça me donne envie de pleurer!
+
+ONION.GYM (GYM) =
+    Faire de l'exercice me donne envie de pleurer.
+
+ONION.FARM (FARM) =
+    C'est okay de manger des légumes tant qu'ils ne peuvent pas parler.
+
+    Ou, si t'as vraiment très faim je suppose? Je sais pas.
+
+ONION (HOME & !GYM) =
+    Je suis <s=2>constamment</s> au bord des larmes.
+
+TALL_BEE.LIVING_ROOM (LIVING_ROOM) =
+    Je m'amuse tellement!
+
+TALL_BEE.KITCHEN (KITCHEN) =
+    Haha ouais! Je mets BEAUCOUP trop de miel dans la nourriture!
+
+    <s=12>J'AIME QUE CE SOIT SUCRÉ!</s>
+
+TALL_BEE.FARM (FARM) =
+    Je pollinise tout ce bazar, je sais pas pourquoi.
+
+TALL_BEE.J1 (JAIL) =
+    Hé, tout ça doit te stresser pas mal?
+
+    Tu devrais peut-être me laisser te faire de l'acupuncture!
+
+    Je te piquerai sur tout le corps, ça sera génial.
+
+TALL_BEE.J2 (JAIL) =
+    C'est plutôt ennuyeux ici, c'est marrant d'inventer des trucs.
+
+    Comme l'acupuncture d'abeille.
+
+TALL_BEE.J3 (JAIL) =
+    Personne n'est encore tombé dans le panneau...
+
+TALL_BEE.R1 (REST) =
+    Je vois que tu as rencontré mes sbires abeilles inférieurs!
+
+    J'espère qu'ils ne t'ont pas causé trop de problèmes.
+
+    Ils se comportent exactement comme je leur ai appris!
+
+TALL_BEE.R2 (REST) =
+    J'adore mes sbires.
+
+TALL_BEE (HOME) =
+    <f=2,8>Bzzz, dégage!</f>
+
+    Haha, t'as compris?
+
+    C'est parce que je te <s=10>DÉTESTE</s>!
+
+TALL_BEE.2 (HOME) =
+    Haha, juste une petite blague pour toi.
+
+    Tout va bien mon pote. Tu sais qu'on t'apprécie tous, pas vrai?
+
+TALL_BEE.3 (HOME) =
+    Je t'adore!
+
+FLOWEN.FARM (FARM) =
+    Je mets du pollen partout dans cet endroit!
+
+    <s=10>OUAIS!</s>
+
+    C'est genre <s=4>TOUT</s> ce que je fais?
+
+    ...
+
+    Je devrais peut-être trouver d'autres passe-temps.
+
+FLOWEN.KITCHEN (KITCHEN) =
+    Je mets mon pollen dans la nourriture!
+
+    Faut bien que quelqu'un le fasse.
+
+FLOWEN.J1 (JAIL) =
+    La maison me manque...
+
+FLOWEN.R1 (REST) =
+    Ah! J'adore la plage!
+
+FLOWEN (HOME) =
+    Tu savais? Les fleurs produisent tout l'oxygène du monde???
+
+    ...
+
+    Ou c'était les arbres? Je m'en rappelle plus.
+
+    Je suis sûr qu'on y est pour quelque chose.
+
+DRAGON_SLUG.J1 (JAIL) =
+    C'est pas le supermarché...
+
+DRAGON_SLUG.KITCHEN (KITCHEN) =
+    Pourquoi on va pas simplement au supermarché?
+
+DRAGON_SLUG.LIVING_ROOM (LIVING_ROOM & FOOD_ANY) =
+    Où ils trouvent ce bazar?
+
+DRAGON_SLUG.FARM (FARM) =
+    Je comprends pas? Pourquoi on va pas simplement au supermarché?
+
+DRAGON_SLUG.R1 (REST) =
+    C'est plutôt sympa. Presque aussi bien que le supermarché.
+
+DRAGON_SLUG.1 (HOME) =
+    Je vais au supermarché. Essaie de m'arrêter.
+
+DRAGON_SLUG.2 (HOME) =
+    Je plaisante, je sais que les supermarchés n'existent plus.
+
+SNOW_BUDDY.FARM (FARM) =
+    Hihi! Je me cache! Le jardinage est tellement <s=10>ENNUYEUX!</s>
+
+SNOW_BUDDY.J1 (JAIL) =
+    Haha! Je fonds!
+
+SNOW_BUDDY.R1 (REST) =
+    Je suis fait de neige!
+
+SNOW_BUDDY (HOME & !FARM) =
+    Je suis fait de neige!
+
+EYE_MAN.KITCHEN (KITCHEN | LIVING_ROOM) = 
+    On dit qu'on mange d'abord avec les yeux.
+
+    Je n'ai pas de bouche, donc genre ouais évidemment.
+
+EYE_MAN.J1 (JAIL) =
+    Regarde...
+
+EYE_MAN (HOME | REST) =
+    Regarde autour de toi.
+
+# LIBERATION
+
+MERCHANT.FASTER_LIBERATION = J'AI LA MARCHANDIZ!
+
+*MERCHANT.EVIL_LIBERATION = 
+    J'AI LA MARCHANDIZ!
+
+*MERCHANT.LIBERATION = 
+    J'AI LA MARCHANDIZ!
+
+BEAR.FASTER_LIBERATION = AHHHH!
+
+*BEAR.EVIL_LIBERATION = 
+    HEUREUSEMENT! JE SUIS TERRIBLEMENT ALLERGIQUE À L'IDÉE D'ÊTRE MALÉFIQUE!
+
+*BEAR.LIBERATION = 
+    ÉLOIGNE-TOI DE MOI! J'AI DES <s=10>ALLERGIES!</s>
+
+PEA.FASTER_LIBERATION = Pois!
+
+*PEA.EVIL_LIBERATION = 
+    J'aurais pu arrêter d'être Maléfique tout seul, mais c'était plus marrant comme ça.
+
+*PEA.LIBERATION = 
+    J'aurais pu m'échapper tout seul, mais j'en avais pas envie.
+
+BURT.FASTER_LIBERATION = Bien joué mon pote.
+
+*BURT.EVIL_LIBERATION = 
+    Mince!
+
+*BURT.LIBERATION = 
+    Bien joué mon pote.
+
+BURD.FASTER_LIBERATION = CAAAHHH!
+
+*BURD.EVIL_LIBERATION = 
+    <s=8>CAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH!</s>
+
+    Ahem! mmm. J'ai enfin sorti ce truc de ma gorge.
+
+*BURD.LIBERATION = 
+    <f=4,8>CAHHHH!</f>
+
+    <f=8,16>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH!</f>
+
+COOL_DOG.FASTER_LIBERATION = La guerre c'est cool.
+
+*COOL_DOG.EVIL_LIBERATION = 
+    C'était bien d'être Maléfique un petit moment. Ça me rend nostalgique.
+
+*COOL_DOG.LIBERATION = 
+    La guerre m'a changé.
+
+    Elle m'a rendu vraiment cool.
+
+COW_DOG.FASTER_LIBERATION = MARF!
+
+*COW_DOG.EVIL_LIBERATION = 
+    MARF!
+
+*COW_DOG.LIBERATION = 
+    MARF! MARF! MARF!
+
+CRABOI.FASTER_LIBERATION = Tu vas être PINCÉ!
+
+*CRABOI.EVIL_LIBERATION = 
+    Woah mon pote! Ça passait de peu, j'ai failli te pincer!
+
+*CRABOI.LIBERATION = 
+    Quiconque s'en prend à moi ou à mes amis se fait pincer.
+
+    <s=10>PINCÉ!</s>
+
+CUBELDA.FASTER_LIBERATION = Des caries pour TOI!
+
+*CUBELDA.EVIL_LIBERATION = 
+    C'est moi qui ai des caries maintenant...
+
+*CUBELDA.LIBERATION = 
+    Je suis un satané morceau de sucre! Essaie de me manger et je te donne des caries! 
+
+FRUG.FASTER_LIBERATION = Frug Frug Frug!
+
+*FRUG.EVIL_LIBERATION =  
+    <s=8>FRUG FRuG RuG fRUG FURG</s>
+
+*FRUG.LIBERATION =  
+    <f=2,8>Frug Frug Frug Frug Frug Frug Frug Frug Frug Frug Frug Frug.</f>
+
+KEYBO.FASTER_LIBERATION = Je suis Clé.
+
+*KEYBO.EVIL_LIBERATION = 
+    Ils ne m'ont pas eu, j'ai simplement décidé de me faire refaire par chirurgie esthétique en Méchant.
+
+    Enfin bon, c'était marrant tant que ça a duré.
+
+*KEYBO.LIBERATION = 
+    J'adore tellement crocheter les serrures que je me suis fait refaire le visage en clé.
+
+COOL_GHOST.FASTER_LIBERATION = Je suis un fantôme.
+
+*COOL_GHOST.EVIL_LIBERATION = 
+    Je parie que tu ne savais pas que j'étais un FANTÔME MALÉFIQUE!
+
+    <f=8,4>OOOoOOoOOoOoooOOOooO!</f>
+
+*COOL_GHOST.LIBERATION = 
+    Hé idiot j'ai pas besoin de ton aide, j'allais justement traverser la caisse tout seul.
+
+    Pourquoi je l'ai pas fait plus tôt? 
+    
+    <f=2,8>Oh mon pote</f>, tu n'as pas droit à la vérité.
+
+CARROT.FASTER_LIBERATION = PANTALON!
+
+*CARROT.EVIL_LIBERATION = 
+    <s=4>OH MERCI MON DIEU!</s>
+
+    <s=8>J'AI ENCORE MON PANTALON!</s>
+
+*CARROT.LIBERATION = 
+    Bas les pattes de mes hot-pants.
+
+ONION.FASTER_LIBERATION = Je PLEURE!
+
+*ONION.EVIL_LIBERATION = 
+    Je <s=4>N'AI PAS AIMÉ</s> être Maléfique! J'ai <s=4>PLEURÉ</s> tout le temps!
+
+*ONION.LIBERATION = 
+    Je suis si heureux que je pourrais pleurer!
+
+TALL_BEE.FASTER_LIBERATION = Je vais te PIQUER!
+
+*TALL_BEE.EVIL_LIBERATION = 
+    Je suis un membre important de la Communauté de Pollinisation, j'ai pas le temps d'être Maléfique.
+
+*TALL_BEE.LIBERATION = 
+    Je vais te <s=6>piquer</s> mec!
+
+FLOWEN.FASTER_LIBERATION = POLLINISATION!
+
+*FLOWEN.EVIL_LIBERATION = 
+    Même quand je suis Maléfique, je suis mignon!
+
+*FLOWEN.LIBERATION = 
+    Je vais mettre mon pollen sur tout, partout!
+
+DRAGON_SLUG.FASTER_LIBERATION = Supermarché?
+
+*DRAGON_SLUG.EVIL_LIBERATION = 
+    Quand j'étais Maléfique, c'était comme si j'étais de nouveau au Supermarché.
+
+*DRAGON_SLUG.LIBERATION = 
+    J'adore aller au supermarché.
+
+SNOW_BUDDY.FASTER_LIBERATION = Je suis fait de neige!
+
+*SNOW_BUDDY.EVIL_LIBERATION = 
+    J'étais fait de Mal!
+
+*SNOW_BUDDY.LIBERATION = 
+    Je suis fait de neige!
+
+EYE_MAN.FASTER_LIBERATION = Regarde.
+
+*EYE_MAN.EVIL_LIBERATION = 
+    Regarde!
+
+*EYE_MAN.LIBERATION = 
+    Regarde.
+
+FAT_DOG.FASTER_LIBERATION = Peu importe!
+
+*FAT_DOG.EVIL_LIBERATION = 
+    Ne me parle pas pendant que je suis Maléfique.
+
+*FAT_DOG.LIBERATION = 
+    Merci je suppose???
+
+SNAIL.FASTER_LIBERATION = Haha, BAVE!
+
+*SNAIL.EVIL_LIBERATION = 
+    Oh j'ai <s=2>DÉTESTÉ</s> ça! Je suis un <s=2>AMOUREUX</s>, pas un combattant. Ah ça non, ni monsieur ni madame!
+
+*SNAIL.LIBERATION = 
+    Viens là! Je veux te faire un gros câlin <s=10>BAVEUX</s>!
+
+PLANTAIN.FASTER_LIBERATION = Bananes.
+
+*PLANTAIN.EVIL_LIBERATION = 
+    Salut, je suis Maléfanigan la Banane! Attends, c'est bien ça? Je m'en souviens plus.
+
+*PLANTAIN.LIBERATION = 
+    Salut, je suis Bananigan la Banane Plantain! Ne te laisse pas avoir par le nom!
+
+MUSHROOM.FASTER_LIBERATION = DES CHAMPIGNONS PARTOUT!
+
+*MUSHROOM.EVIL_LIBERATION = 
+    Être Maléfique m'a vraiment gêné pour propager mes <s=10>CHAMPIGNONS!</s>
+
+*MUSHROOM.LIBERATION = 
+    Merci! Je peux reprendre la propagation de mes <s=10>CHAMPIGNONS!</s>
+
+ICE_CUBE.FASTER_LIBERATION = Je suis cool!
+
+*ICE_CUBE.EVIL_LIBERATION = 
+    Hé.
+
+    ...
+
+    J'ai rien.
+
+*ICE_CUBE.LIBERATION = 
+    Hé.
+
+    Ravi de te <f=8,2>glaçon</f>naître.
+
+    Attends.
+
+    Ravi de te <f=2,8>connaître</f>.
+
+    ...
+
+    Remets-moi en place.
+
+ZOE.FASTER_LIBERATION = Reste à l'école.
+
+*ZOE.EVIL_LIBERATION = 
+    J'aurais aimé rester à l'école.
+
+*ZOE.LIBERATION = 
+    ?B
+        (ZOEBANZO) => ZOE.LIBERATION_ZOEBANZO
+        (TINT_MINT) => ZOE.LIBERATION_MINT
+        (TINT_GREEN) => ZOE.LIBERATION_GREEN
+        => ZOE.LIBERATION_NORMAL
+
+*ZOE.LIBERATION_MINT = 
+    Reste à l'école.
+
+    Sinon tu risques de virer au <c={GREEN_HEX}>vert</c> comme moi...
+
+    Tu es <c={MINT_HEX}>Menthe</c>. C'est très proche du <c={GREEN_HEX}>vert</c>. Il y a encore de l'espoir pour toi...
+
+*ZOE.LIBERATION_GREEN = 
+    Reste à l'école.
+
+    Sinon tu risques de virer au <c={GREEN_HEX}>vert</c> comme moi...
+
+    Il semble qu'il soit trop tard. Le <c={GREEN_HEX}>Vert</c> t'a eu.
+
+*ZOE.LIBERATION_ZOEBANZO = 
+    Je suis toi, venue du futur.
+
+    Je plaisante.
+
+*ZOE.LIBERATION_NORMAL =
+    Reste à l'école.
+
+    Sinon tu risques de virer au <c={GREEN_HEX}>vert</c> comme moi.
+
+COMET.FASTER_LIBERATION = Je viens de l'espace, mec.
+
+*COMET.EVIL_LIBERATION = 
+    Grâce au pouvoir du Mal, j'ai réussi à faire 10 pompes aujourd'hui.
+    
+*COMET.LIBERATION = 
+    Je parie que je peux faire plus de pompes que toi.
+
+CONCERNING_DUCK.FASTER_LIBERATION = Ble-Bleeeeh!
+
+*CONCERNING_DUCK.EVIL_LIBERATION = 
+    <f=16,16>Ble-BlUUUUUUuU?</f>
+    
+*CONCERNING_DUCK.LIBERATION = 
+    <f=0,16>Ble-Bleeeeeeh!</f>
+
+BALLOON_ENJOYER.FASTER_LIBERATION = Va-t'en.
+
+*BALLOON_ENJOYER.EVIL_LIBERATION = 
+    Mon ballon m'accompagne partout, on est amoureux.
+
+    Grâce à toi, on est revenus à la normale.
+    
+*BALLOON_ENJOYER.LIBERATION = 
+    Fais gaffe gamin.
+
+    Je suis le Fan de Ballons.
+
+    Tu ferais mieux de circuler maintenant, hein?
+
+SQUICTOPUS.FASTER_LIBERATION = LALALA!
+
+*SQUICTOPUS.EVIL_LIBERATION = 
+    <f=4,16>LALALA!</f> JE SUIS MALÉFIQUE! <f=4,16>LALALA!</f>
+    
+*SQUICTOPUS.LIBERATION = 
+    <f=4,16>LALALA!</f> JE SUIS SQUICTOPUS! <f=4,16>LALALA!</f>
+
+DOG.FASTER_LIBERATION = Ouaf!
+
+*DOG.EVIL_LIBERATION = 
+    Ouaf? 
+    
+*DOG.LIBERATION = 
+    Ouaf!
+
+MOLE.FASTER_LIBERATION = T'es un ver de terre?
+
+*MOLE.EVIL_LIBERATION =
+    Désolé, je croyais que t'étais un ver de terre.
+
+    # ...
+
+    # Would you still like me if I was a worm?
+
+    # I wouldn't. Worms a terrible. They are my prey.
+
+*MOLE.LIBERATION =
+    Je suis un insectivore.
+
+    Ça veut dire que si tu es un ver de terre, je vais te <s=8>détruire</s>.
+
+STARFISH.FASTER_LIBERATION = L'heure du Poisson-Étoile!
+
+*STARFISH.EVIL_LIBERATION =
+    Merci! J'aimais pas trop être Maléfique!
+
+*STARFISH.LIBERATION =
+    Tout le monde m'appelle toujours Poisson-<f=0,4>Étoile.</f>
+
+    Eh bien ils ont tort! Je suis une Étoile de <f=2,8>Mer!</f>
+
+    <s=4>Pfff,</s> dites-le correctement! <s=20>MON DIEU!</s>
+
+JELLYFISH_FRIEND.FASTER_LIBERATION = Noble méduse...
+
+*JELLYFISH_FRIEND.EVIL_LIBERATION =
+    <s=10>NON!</s>
+
+    J'<s=10>ADORAIS</s> être Maléfique! Peu importe...
+
+*JELLYFISH_FRIEND.LIBERATION =
+    Tu savais?
+
+    Les méduses sont carnivores???
+
+    <s=10>HEH!</s> Heureusement pour toi je n'ai pas faim!
+
+FISH.FASTER_LIBERATION = Je suis un poisson...
+
+*FISH.EVIL_LIBERATION = 
+    Pfff, au moins quand j'étais Maléfique je trouvais un peu de catharsis.
+    
+*FISH.LIBERATION = 
+    Tu ne comprends pas à quel point c'est compliqué d'être un poisson.
+
+SOCKY.FASTER_LIBERATION = Bois ma Sueur de Socky ICONIQUE!
+
+*SOCKY.EVIL_LIBERATION = 
+    Je suis tellement Maléfique que je me suis mis une chaussette sur la tête.
+    
+*SOCKY.LIBERATION = 
+    Je suis tellement moche que je me suis mis une chaussette sur la tête.
+
+DONUT.FASTER_LIBERATION = NE ME MANGE PAS!
+
+*DONUT.EVIL_LIBERATION = 
+    Même les donuts normaux sont un peu Maléfiques, si on y réfléchit bien.
+
+    ...
+
+    Pas vraiment en fait.
+    
+*DONUT.LIBERATION = 
+    S'il te plaît ne me mange pas.
+
+    Une fois, ça suffisait.
+
+CLOUD.FASTER_LIBERATION = Pluie, pluie, pluie...
+
+*CLOUD.EVIL_LIBERATION = 
+    Je pleure mes frères nuages qui ne sont pas Maléfiques.
+    
+*CLOUD.LIBERATION = 
+    Je pleure mes frères nuages qui ne sont pas doués de conscience.
+
+# MISC
+
+DOCTOR_PROFESSOR_SCIENCE_BROKEN.FASTER_LIBERATION = quoi...?
+
+DOCTOR_PROFESSOR_SCIENCE_BROKEN.1 = 
+    ...
+
+DOCTOR_PROFESSOR_SCIENCE_BROKEN.2 = 
+    ...?
+
+    <s=2>quoi...?</s>
+
+DOCTOR_PROFESSOR_SCIENCE_BROKEN.3 = 
+    <s=2>laisse... moi tranquille...</s>
+
+BILLI_DEAD.FASTER_LIBERATION = Pas de réponse.
+
+BILLI_DEAD = 
+    ...
+
+    Pas de réponse.

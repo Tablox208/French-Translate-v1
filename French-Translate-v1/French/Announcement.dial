@@ -1,0 +1,68 @@
+%ZAGAWEE.KICKSTARTER = 
+    Salut! Moi c'est Zagawee! Désolé de te déranger. Mais tu savais que je bosse sur un nouveau jeu vidéo?
+
+    Ça s'appelle SUPER DEBT! C'est un roguelike bullet hell flippant où tout coûte de l'argent!
+
+    Je lance un Kickstarter en ce moment pour financer la fin du développement! Ça fait déjà à peu près un an que je travaille sur le jeu.
+
+    Même si tu ne peux pas soutenir le Kickstarter financièrement, le partager avec tes potes ou mettre le jeu dans ta liste de souhaits, ça aide énormément!
+
+    Et tu l'as peut-être déjà remarqué, mais j'ai même ajouté un nouveau personnage jouable de SUPER DEBT pour fêter le Kickstarter!
+
+    Elle s'appelle ZOE ZUBERDETTE. Je la trouve plutôt cool!
+
+    Bref, tu voudrais que j'ouvre le Kickstarter de SUPER DEBT pour toi?
+
+    ?Q
+        Oui, je veux te donner de l'argent! => ZAGAWEE.KICKSTARTER.YES
+        Euh, peut-être plus tard. => ZAGAWEE.KICKSTARTER.MAYBE
+        Non, je te déteste. => ZAGAWEE.KICKSTARTER.NO
+
+ZAGAWEE.KICKSTARTER.2 = 
+    Hé! Tu te souviens de moi? C'est Zagawee!
+
+    Tu te rappelles la dernière fois, quand je t'ai parlé du Kickstarter de mon prochain jeu, SUPER DEBT?? 
+    
+    Le Roguelike Bullet Hell Où Tout Coûte De L'Argent???
+
+    Tu te rappelais que tu voulais y jeter un œil?
+
+    ?Q
+        Oui, je veux te donner de l'argent! => ZAGAWEE.KICKSTARTER.YES
+        Euh, peut-être plus tard. => ZAGAWEE.KICKSTARTER.MAYBE
+        Non, je te déteste. => ZAGAWEE.KICKSTARTER.NO
+
+ZAGAWEE.KICKSTARTER.3 = 
+    Ouais, je suis toujours là!
+
+    ...
+
+    Je resterai dans le coin jusqu'à la fin du Kickstarter de mon prochain jeu, SUPER DEBT!
+
+    Tu veux y jeter un œil?
+
+    ?Q
+        Oui, je veux te donner de l'argent! => ZAGAWEE.KICKSTARTER.YES
+        Euh, peut-être plus tard. => ZAGAWEE.KICKSTARTER.MAYBE
+        Non, je te déteste. => ZAGAWEE.KICKSTARTER.NO
+
+*ZAGAWEE.KICKSTARTER.YES =
+    Youpi! Je vais essayer d'ouvrir ton navigateur web...
+
+    @A1
+
+    ...
+
+    Ça a marché?
+
+    @A2
+
+*ZAGAWEE.KICKSTARTER.MAYBE =
+    C'est juste!
+
+    @A1
+
+*ZAGAWEE.KICKSTARTER.NO =
+    <s=4>QU'IL EN SOIT AINSI.</s>
+
+    @A1

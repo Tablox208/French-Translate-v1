@@ -1,0 +1,78 @@
+HATSLY.J1 (JAIL) =
+    Je n'ai pas grand-chose pour m'occuper ici.
+
+    J'ai bien peur de ne pas pouvoir t'être d'une grande aide...
+
+HATSLY.R1 (REST) =
+    C'est important de faire des pauses. On ne peut pas travailler tout le temps!
+
+    Ton esprit est comme une éponge. Il faut s'arrêter pour s'imprégner de la vie avant de pouvoir en essorer quoi que ce soit!
+
+HATSLY.R2 (REST) =
+     <f=2,4>Fini le travail! C'est l'heure de l'éponge!</f>
+
+HATSLY (HOME) = 
+    ?B
+        => HATSLY.ALL_*
+        => HATSLY.NICE
+        => HATSLY.RUDE
+
+*HATSLY.ALL_1 =
+    Mon dieu... Tu m'as aidé à fabriquer tellement de choses. Toutes mes idées sont devenues réalité.
+
+    Merci. Tu es vraiment un mécène des arts.
+
+    Je suis désolé de t'avoir traité de moche. Tu es magnifique...
+
+    À l'intérieur.
+
+*HATSLY.ALL_2 =
+    Tu es magnifique.
+
+*HATSLY.NICE =
+    ?B
+        => HATSLY.NICE_ACCESSORY
+        => HATSLY.NICE_TINT
+        => HATSLY.NICE_HELP
+
+*HATSLY.NICE_TINT =
+    Oh... Tu t'es peint en {TINT}? Qui suis-je pour juger, c'est une belle couleur sur toi.
+
+*HATSLY.NICE_ACCESSORY =
+    Je vois que tu portes mon {ACCESSORY}. Je suis content que tu aimes porter mes créations.
+
+*HATSLY.NICE_HELP =
+    J'ai encore plein de belles choses à fabriquer. J'espère que tu continueras à m'aider?
+    
+    Si tu as assez de {ACCESSORY_FRAGMENT}, je te fabriquerai quelque chose.
+
+*HATSLY.RUDE =
+    ?B
+        => HATSLY.RUDE_ACCESSORY
+        => HATSLY.RUDE_TINT
+        => HATSLY.RUDE_HELP
+
+*HATSLY.RUDE_TINT =
+    Hmm... Tu t'es peint en {TINT}? J'espère que ça part au lavage.
+
+*HATSLY.RUDE_ACCESSORY = 
+    Je vois que tu portes mon {ACCESSORY}. Je suppose que tu es moins moche maintenant.
+
+*HATSLY.RUDE_HELP =
+    Mets-toi quelque chose sur le dos. Ça te rendra moins moche.
+    
+    Si tu as assez de {ACCESSORY_FRAGMENT}, je te fabriquerai quelque chose.
+
+    Va choisir un truc.
+
+HATSLY.FASTER_SECRET = Parle-moi de PERSONNALISATIONS.
+
+HATSLY.FASTER_LIBERATION = Moche.
+
+*HATSLY.EVIL_LIBERATION =
+    Woah! Pardon! Je te prie de me pardonner mes écarts.
+
+*HATSLY.SECRET =
+    Beurk, dégoûtant.
+
+    Viens me parler de <c={IMPORTANT_HEX}>PERSONNALISATIONS</c> à la Maison <i=TentWhiteOutline,1,16,18,10></i>.
